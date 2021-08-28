@@ -6,25 +6,48 @@
   <title> AMOS </title>
 </head>
 
-<body style="display: flex; justify-content: center; font-family: arial">
-  <div style="width: 50%">
-    <!-- Div container to put elements inside to create a section -->
+<!-- justify-content needs display flex to be included as well to work-->
+<!-- centering of all elements within the body in one row and setting of font type -->
+
+<body style="display: flex; justify-content: center; font-family: arial; background-image: ur("")>
+
+  <!-- demonstrating left most column of the body elements since all elements in the body are displayed in a row-->
+  <div style=" background-color: purple">
+  <br>
+  <p> Some text </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </div>
+
+  <!-- All elements here to take up specific width of 80% of the screen -->
+  <div style="width: 80%">
+
+    <!-- Div container containing personal info aligned to center -->
     <div style="text-align: center">
+
       <!-- personal info-->
-      <a href="https://github.com/dhs-amos" title="Amos's Github"> <img src = "https://avatars.githubusercontent.com/u/25073573?v=4" style = "width: 20%; border-radius: 50%" alt = "Amos" />
+      <a href="https://github.com/dhs-amos" title="Amos's Github"> <img src = "https://avatars.githubusercontent.com/u/25073573?v=4" style = "width: 20%; border-radius: 50%; border:2px solid blue" alt = "Amos" />
       </a>
 
       <h1> Amos </h1>
-      <h2>
-        <a href="aw.guangyang.amos@dhs.sg"> aw.guangyang.amos@dhs.sg.com </a>
+      <h2 style="display: inline; border: 2px solid red">
+        <a href="aw.guangyang.amos@dhs.sg"> aw.guangyang.amos@dhs.sg.com</a>
       </h2>
       <hr style="width: 70%" />
     </div>
 
+
+
+    <!-- Div container containing Education and CCA sections displayed together in a row flexibly and spaced evenly-->
     <div style="display: flex; justify-content: space-evenly">
 
+
       <!-- Education -->
-      <div style="width: 50%">
+      <!-- specification of Education section to occupy 50% of the 80% (line 25) screen width set for all elements to occupy with borders and backgroubdn colour -->
+      <div style="width: 50%; background-color: rgb(0, 250, 24); border: 2px solid orange">
         <h1> Education 🕮 </h1>
         <hr style="width: 50%; margin-left: 0" />
         <ul>
@@ -35,7 +58,8 @@
 
 
       <!-- CCA -->
-      <div style="width: 50%">
+      <!-- specification of CCA section to occupy 50% of the 80% (line 25) screen width set for all elements to occupy with borders and backgroubdn colour -->
+      <div style="width: 50%; background-color: red; ; border: 2px solid blue">
         <h1> CCA </h1>
         <hr style="width: 50%; margin-left: 0" />
 
@@ -55,24 +79,35 @@
         <ul>
           <li> Primary School CCA </li>
           <li> Paricipated in Weiqi Competitions </li>
-          <ul>
-
+        </ul>
       </div>
+
     </div>
 
+
+
+    <!-- Div container containing Interests and Work Experience sections displayed together in a row flexibly and spaced evenly to take -->
     <div style="display: flex; justify-content: space-evenly">
+
+
       <!-- Interests -->
-      <div style="width: 50%">
+      <!-- specification of Interests section to occupy 50% of the 80% (line 25) screen width set for all elements to occupy with borders and backgroubdn colour -->
+      <div style="width: 50%; background-color: blue; border: 2px solid red">
         <h1> Interests </h1>
         <hr style="width: 50%; margin-left: 0" />
         <ul>
           <li> Automobile Technologies </li>
+          <a href="https://www.nissan.co.uk/vehicles/new-vehicles/qashqai.html" title="Nissan Qashqai 2022"> <img src = "https://img-ik.cars.co.za/news-site-za/images/2021/05/nissan-qashqai-2021-4.jpg" style = "width: 70%; border-radius: 20%" />
+          </a>
           <li> Sports </li>
         </ul>
       </div>
 
+
+
       <!-- Work Experience -->
-      <div style="wdith: 50%">
+      <!-- specification of Work experiences section to occupy 50% of the 80% (line 25) screen width set for all elements to occupy with borders and backgroubdn colour -->
+      <div style="width: 50%; background-color: orange; border: 2px solid green">
         <h1> Work Experience </h1>
         <hr style="width: 50%; margin-left: 0">
         <ol type="I">
@@ -87,9 +122,28 @@
           </ul>
           <li> CS50 Course </li>
         </ol>
+      </div>
 
+    </div>
+    <div style="display: flex; justify-content: space-evenly">
+      <div style="width: 50%; background-color: grey">
+        <p> to demonstrate this box of element being the first column of the row it is in and this row is part of a
+          division declared from line 128 where this division is part of the larger division declared in line 25 to
+          occupy 80% width and this is part of the global division of a body where it is displayed as the middle column
+          with other columns as one row </p>
       </div>
     </div>
+  </div>
+
+  <!-- demonstrating right most column of the body elements since all elements in the body are displayed in a row-->
+  <div style="background-color: green">
+    <br>
+    <p> Some text </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
 </body>
 
